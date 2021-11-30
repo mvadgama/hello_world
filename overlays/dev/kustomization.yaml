@@ -6,6 +6,6 @@ resources:
 
 commonLabels:
   env: dev
-  name: manish-vadgama
+  release: stable
 
 namespace: default
