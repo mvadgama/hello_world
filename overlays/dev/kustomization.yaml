@@ -8,3 +8,11 @@ commonLabels:
   env: abcde
 
 namespace: applications
+
+resources:
+  - deployment.yaml
+  - service.yaml
+  - namespace.yaml
+
+patchesStrategicMerge:
+  - deployment.yaml
