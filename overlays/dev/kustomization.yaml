@@ -6,6 +6,5 @@ resources:
 
 commonLabels:
   env: dev
-  release: stable
 
 namespace: default
