@@ -7,4 +7,12 @@ resources:
 commonLabels:
   env: dev
 
+resources:
+  - namespace.yaml
+  - deployment.yaml
+  - service.yaml
+
 namespace: default
+
+patchesStrategicMerge:
+  - deployment.yaml
