@@ -6,9 +6,9 @@ metadata:
     app: nginx
 spec:
   ports:
-  - port: 81
+  - port: 80
     protocol: TCP
-    targetPort: 81
+    targetPort: 80
     name: http
   type: LoadBalancer
   selector:
