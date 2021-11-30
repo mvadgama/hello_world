@@ -12,5 +12,6 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: default
-syncOptions:
-- Replace=true
+syncPolicy:
+  syncOptions:
+    - ApplyOutOfSyncOnly=true
